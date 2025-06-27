@@ -34,6 +34,9 @@ jobs:
         TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
         TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
       run: |
+        echo "ENV_ID: ${{ secrets.TCB_ENV_ID }}"
+        echo "SECRET_ID length: ${#TCB_SECRET_ID}"  # 验证密钥长度
+        
         tcb hosting deploy ./public \
           -e "$TCB_ENV_ID" \ 
           --secretId "$TCB_SECRET_ID" \
