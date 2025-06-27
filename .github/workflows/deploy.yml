@@ -29,14 +29,14 @@ jobs:
 
     - name: Deploy to CloudBase Static Hosting
       env:
-        DEBUG: '*'
         # TCB_SECRET_ID和TCB_SECRET_KEY会自动被CLI识别
         TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
         TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
         TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
       run: |
-        echo "ENV_ID length: ${#secrets.TCB_ENV_ID}"
-        echo "SECRET_KEY length: ${#secrets.TCB_SECRET_KEY}"
-        echo "SECRET_ID length: ${#secrets.TCB_SECRET_ID}"  # 验证密钥长度
-        
-        tcb hosting deploy ./public --envId ${{ secrets.TCB_ENV_ID }} --secretId ${{ secrets.TCB_SECRET_ID }} --secretKey ${{ secrets.TCB_SECRET_KEY }} --overwrite true  # 避免文件冲
+        echo "ENV_ID length: ${#TCB_ENV_ID}"
+        echo "SECRET_KEY length: ${#TCB_SECRET_KEY}"
+        echo "SECRET_ID length: ${#TCB_SECRET_ID}"  # 验证密钥长度
+
+        tcb login --apiKeyId ${{ secrets.TCB_SECRET_ID }} --apiKey ${{ secrets.TCB_SECRET_KEY }}
+        tcb hosting deploy ./public --envId ${{ secrets.TCB_ENV_ID }}
