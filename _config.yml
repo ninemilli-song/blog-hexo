@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 九毫糟心事
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: '生活中的那些糟心事，如何解决？'
+keywords: '糟心事 抑郁 不开心'
+author: 九毫
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://cloud1-9gq179b85e74c4fd-1325340021.tcloudbaseapp.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
