@@ -1,0 +1,6 @@
+top:
+  - class_name: wechat
+    id_name: webchat
+    name: 我的微信
+    icon: fab fa-weixin
+    html: "<img src='/images/wechat_qr.jpg' width='100%'>"

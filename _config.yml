@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 九毫心中事
+title: 九毫的自留地
 subtitle: ''
-description: '生活中的那些心事，如何解决？'
-keywords: '排解糟心事/抑郁/不开心'
+description: '这是一张人生体验券，酸甜苦辣都值得品味。'
+keywords: '记录人生体验/排解糟心事/抑郁/不开心'
 author: 九毫
 language: zh-CN
 timezone: ''
@@ -41,6 +41,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
