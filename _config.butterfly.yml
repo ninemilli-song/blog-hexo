@@ -424,7 +424,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -684,7 +684,7 @@ google_analytics:
 cloudflare_analytics:
 
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: s80ky78azx
 
 # https://umami.is/
 umami_analytics:
