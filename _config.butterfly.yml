@@ -20,7 +20,7 @@ menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
   # 标签: /tags/ || fas fa-tags
-  # 分类: /categories/ || fas fa-folder-open
+  分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -706,10 +706,10 @@ umami_analytics:
 
 # Google Adsense
 google_adsense:
-  enable: false
+  enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
+  client: ca-pub-4729866964061417
   enable_page_level_ads: true
 
 # Insert ads manually

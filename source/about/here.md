@@ -34,4 +34,4 @@ date: 2025-06-30 08:10:52
 
 ## 关注九毫公众号
 
-> ![](images/qrcode_for_gh.jpg)
+{% img /images/qrcode_for_gh.jpg 250 250 %}
