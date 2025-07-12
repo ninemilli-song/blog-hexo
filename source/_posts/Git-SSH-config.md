@@ -2,6 +2,8 @@
 title: Git SSH 配置详细教程
 date: 2025-07-03 11:04:55
 tags: Git
+categories:
+  - 技术资料
 ---
 配置 Git SSH 密钥的步骤如下，适用于 GitHub、GitLab 等平台：
 
