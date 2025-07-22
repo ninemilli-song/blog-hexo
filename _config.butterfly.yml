@@ -260,8 +260,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
-  custom_text:
+    since: 2025
+  custom_text: <a href="https://beian.miit.gov.cn/"><span>备案号：京ICP备2023040774号-2</span></a>
   # Copyright of theme and framework
   copyright: true
 
